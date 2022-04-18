@@ -1,6 +1,6 @@
 
 # Coding Bootcamp #
-
+<img src="https://www.canva.com/design/DAE-RFQvZd0/VTH_QEQQAm8UrxdznrK6AA/view?utm_content=DAE-RFQvZd0&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" width="400" />
 
 
 ## Assignment 1) ##
