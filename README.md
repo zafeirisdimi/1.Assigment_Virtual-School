@@ -1,5 +1,5 @@
 
-# First Assignment -- Coding Bootcamp #
+# Coding Bootcamp #
 
 ## Assignment 1) ##
 ### You need to implement the following functionality: ###
