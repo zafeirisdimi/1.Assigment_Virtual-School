@@ -1,6 +1,6 @@
 
 # Coding Bootcamp #
-<img src="https://github.com/zafeirisdimi/coding_bootcamp/blob/ba3b2a83a0aee242e07abb9e7df54f1917d6e50d/Dimitrios_Zafeiris_first_assignment_/img/Coding%20Bootcamp.jpg" width="500" />
+<img src="https://github.com/zafeirisdimi/coding_bootcamp/blob/ba3b2a83a0aee242e07abb9e7df54f1917d6e50d/Dimitrios_Zafeiris_first_assignment_/img/Coding%20Bootcamp.jpg" width="90%" />
 
 
 ## Assignment 1) ##
