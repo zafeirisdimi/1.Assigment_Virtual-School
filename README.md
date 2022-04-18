@@ -1,6 +1,6 @@
 
 # Coding Bootcamp #
-<img src="https://github.com/zafeirisdimi/coding_bootcamp/blob/ba3b2a83a0aee242e07abb9e7df54f1917d6e50d/Dimitrios_Zafeiris_first_assignment_/img/Coding%20Bootcamp.jpg" width="90%" align="center"/>
+<img src="https://github.com/zafeirisdimi/coding_bootcamp/blob/9d5285de6941ac84c2116dcf7b5710b173883734/Dimitrios_Zafeiris_first_assignment_/img/assignment1preview.jpg" width="100%" align="center"/>
 
 ### You need to implement the following functionality: ###
 
