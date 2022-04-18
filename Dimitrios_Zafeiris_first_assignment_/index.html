@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta author="Dimitrios Zafeiris">
+  <title>HOME|Assignment1</title>
+  <link rel="stylesheet" href="../Dimitrios_Zafeiris_first_assignment_/style/style.css" type="text/css">
+  <link rel="icon" type="image/x-icon" href="../Dimitrios_Zafeiris_first_assignment_/img/code.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-up-to-line">&#8593;</i></button>
+  <header id="header">
+    <h1>Coding Bootcamp 2022</h1>
+    <nav class="topnav" role="navigation">
+      <a class="active" href="index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a></li>
+      <a href="#Courses" alt="View Courses"><i class="fa-solid fa-book" aria-hidden="true"></i> Courses</a>
+      <a href="#Students" alt="Add Student"><i class="fa-solid fa-children" aria-hidden="true"></i> Students</a>
+      <a href="#Trainers" alt="View Trainers"><i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i>Trainers</a>
+      <a href="#Assignments" alt="View Assignments"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i>Assignments</a>
+    </nav>
+    <hr/>
+  </header>
+  
+  <main>
+    <section id="home">
+      <h2>Assignment 1)</h2>
+      <strong>You need to implement the following functionality:</strong>
+      <ol>
+        <li>
+          <h4>Produce the following web pages by sketching their layout using HTML/CSS<span
+              class="marks">[24marks]</span></h4>
+        </li>
+        <ol type='A'>
+          <li>Add / Edit Form for Courses<span class="marks">[2 x 3marks, total 6marks]</span></li>
+          <li>Add / Edit Form for Trainers<span class="marks">[2 x 3 marks, total 6 marks]</span></li>
+          <li>Add / Edit Form for Students<span class="marks">[2 x 3 marks, total 6 marks]</span></li>
+          <li>Add / Edit Form for Assignments<span class="marks">[2 x 3 marks, total 6 marks]</span></li>
+        </ol>
+        <li>
+          <h4>Produce the following web pages by sketching their layout using HTML/CSS<span class="marks">[24
+              marks]</span></h4>
+        </li>
+        <ol type='A'>
+          <li>Add / Edit Form for Trainers per Course <span class="marks">[8marks]</span></li>
+          <li>Add / Edit Form for Students per Course <span class="marks">[8marks]</span></li>
+          <li>Add / Edit Form for Assignments per Course <span class="marks">[8marks]</span></li>
+        </ol>
+        <li>
+          <h4>Produce the following web pages by sketching their layout using HTML/CSS<span
+              class="marks">[6marks]</span></h4>
+        </li>
+        <ol type='A'>
+          <li>Add / Edit Form for Assignments per Studentper Course <span class="marks">[2 x 3 marks, total 6
+              marks]</span></li>
+        </ol>
+        <li>
+          <h4>Add the required validations, e.g. size, input type, valid valueetc. on the following forms<span
+              class="marks">[46marks]</span></h4>
+        </li>
+        <ol type='A'>
+          <li>Add / Edit Form for Courses <span class="marks">[5marks]</span></li>
+          <li>Add / Edit Form for Trainers <span class="marks">[5marks]</span></li>
+          <li>Add / Edit Form for Students <span class="marks">[5marks]</span></li>
+          <li>Add / Edit Form for Assignments <span class="marks">[5marks]</span></li>
+          <li>Add / Edit Form for Trainers per Course <span class="marks">[5marks]</span></li>
+          <li>Add / Edit Form for Students per Course <span class="marks">[5marks]</span></li>
+          <li>Add / EditForm for Assignments per Course <span class="marks">[5marks]</span></li>
+          <li>Add / Edit Form for Assignments per Student per Course <span class="marks">[11marks]</span></li>
+        </ol>
+      </ol>
+    </section>
+    
+    <section id="Courses">
+      <h2><i class="fa-solid fa-book" aria-hidden="true"></i> Courses</h2>
+      <hr/>
+      <p class="topnav">
+        
+        <a href="/Dimitrios_Zafeiris_first_assignment_/html/AddCourse.html" alt="Add new course"><i class="fa-solid fa-plus"></i> New Course</a>
+        <a href="/Dimitrios_Zafeiris_first_assignment_/html/trainers_percourses.html" alt="Trainers per Course"><i class="fa-solid fa-plus"></i>Trainers per Course</a>
+        <a href="/Dimitrios_Zafeiris_first_assignment_/html/students_percourses.html" alt="Students per Course"><i class="fa-solid fa-plus"></i>Students per Course</a>
+        <a href="/Dimitrios_Zafeiris_first_assignment_/html/assignments_percourses.html" alt="Assignments per Course"><i class="fa-solid fa-plus"></i>Assignments per Course</a>
+        <a href="/Dimitrios_Zafeiris_first_assignment_/html/ass_student_course.html" alt="Assignments per Course"><i class="fa-solid fa-plus"></i>Assignments per Student per Course</a>
+    
+      </p>
+      <table border="5" id="tableCourses">
+        <thead>
+        <tr>
+          <th>a/a </th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Code Course</th> 
+          <th>Submission Start Date</th>
+          <th>Submission End Date</th>
+          <th>Number of Students</th>
+          <th>Trainer</th>
+          <th>Files</th>
+          </tr>
+        </thead>
+        <tbody id="">
+            <tr>
+                <td>1 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>12/2/2021</td>
+                    <td>HTML-342</td>
+                    <td>20/2/2021</td>
+                    <td>20</td>
+                    <td>PASXALIDIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>2 </td>
+                    <td>JAVASCRIPT</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td>12/2/2022</td>
+                    <td>20</td>
+                    <td>PREZERAKOS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>3 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td>12/2/2022</td>
+                    <td>20</td>
+                    <td> SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>4 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td>22/3/2022</td>
+                    <td>20</td>
+                    <td>PASXALIDIS </td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>5 </td>
+                    <td>c#</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>10/2/2022</td>
+                    <td>12/3/2022</td>
+                    <td>20</td>
+                    <td>PASXALIDIS, PREZERAKOS, SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>6 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td>22/3/2022</td>
+                    <td>20</td>
+                    <td>PASXALIDIS, PREZERAKOS, SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>7 </td>
+                    <td>CSS</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td>10/8/2022</td>
+                    <td>20</td>
+                    <td>PAPADOPOULOS, SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>8 </td>
+                    <td>REACT</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td>2/5/2022</td>
+                    <td>20</td>
+                    <td>PASXALIDIS, PAPADOPOULOS, SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            </tbody>
+          <tfoot>
+            <tr><td colspan="9">End of records</td></tr>
+            </tfoot>
+      </table>
+    </section>
+    <section id="Students">
+      <h2><i class="fa-solid fa-children" aria-hidden="true"></i> Students</h2>
+      <hr>
+      <p class="topnav"><a href="/Dimitrios_Zafeiris_first_assignment_/html/AddStudent.html" alt="Add new Student"><i class="fa-solid fa-plus"></i> Add new</a></p>
+      <table border="5" id="tableStudents">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Courses</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 
+            </td>
+            <td>Html1</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>20</td>
+            <td>20/2/2021</td>
+            <td>20/2/2021</td>
+            <td><a href="mailto:someone@example.com" alt="someone@example.com"><i
+                  class="fa-solid fa-at tableIcons"></i></a></td>
+            <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+            <td><a href="#">dummylink</a></td>
+          </tr>
+          <tr>
+            <td>2 
+            </td>
+            <td>JAVASCRIPT</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>25</td>
+            <td>12/2/2022</td>
+            <td>12/2/2022</td>
+            <td><a href="mailto:someone@example.com" alt="someone@example.com"><i
+                  class="fa-solid fa-at tableIcons"></i></a></td>
+            <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+            <td><a href="#">link</a></td>
+          </tr>
+          <tr>
+            <td>3 
+            </td>
+            <td>Html1</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>35</td>
+            <td>12/2/2022</td>
+            <td>12/2/2022</td>
+            <td><a href="mailto:someone@example.com" alt="someone@example.com"><i
+                  class="fa-solid fa-at tableIcons"></i></a></td>
+            <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+            <td><a href="#">link</a></td>
+          </tr>
+          <tr>
+            <td>4 
+            </td>
+            <td>Html1</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>35</td>
+            <td>12/2/2022</td>
+            <td>22/3/2022</td>
+            <td><a href="mailto:someone@example.com" alt="someone@example.com"><i
+                  class="fa-solid fa-at tableIcons"></i></a></td>
+            <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+            <td><a href="#">link</a></td>
+          </tr>
+          <tr>
+            <td>5 
+            </td>
+            <td>c#</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>33</td>
+            <td>10/2/2022</td>
+            <td>12/3/2022</td>
+            <td><a href="mailto:someone@example.com" alt="someone@example.com"><i
+                  class="fa-solid fa-at tableIcons"></i></a></td>
+            <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+            <td><a href="#">link</a></td>
+          </tr>
+          <tr>
+            <td>6 
+            </td>
+            <td>Html1</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>24</td>
+            <td>12/2/2022</td>
+            <td>22/3/2022</td>
+            <td><a href="mailto:someone@example.com" alt="someone@example.com"><i
+                  class="fa-solid fa-at tableIcons"></i></a></td>
+            <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+            <td><a href="#">link</a></td>
+          </tr>
+          <tr>
+            <td>7 <span><a href="/Dimitrios_Zafeiris_first_assignment_/html/AddStudent.html"><i class="fa-solid fa-wand-magic-sparkles"></i></a></span>
+            </td>
+            <td>CSS</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>36</td>
+            <td>12/2/2022</td>
+            <td>10/8/2022</td>
+            <td><a href="mailto:someone@example.com" alt="someone@example.com"><i
+                  class="fa-solid fa-at tableIcons"></i></a></td>
+            <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+            <td><a href="#">link</a></td>
+          </tr>
+          <tr>
+            <td>8 
+            </td>
+            <td>REACT</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>29</td>
+            <td>12/2/2022</td>
+            <td>2/5/2022</td>
+            <td><a href="mailto:someone@example.com" alt="someone@example.com"><i
+                  class="fa-solid fa-at tableIcons"></i></a></td>
+            <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+            <td><a href="#">link</a></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">End of records</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section id="Trainers">
+      <h2><i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Trainers</h2>
+      <hr/>
+      <p class="topnav"><a href="/Dimitrios_Zafeiris_first_assignment_/html/AddInstructor.html" alt="Add new Instructor"><i class="fa-solid fa-plus"></i> Add new</a></p>
+      <table border="5" id="tableTrainers">
+        <thead>
+        <tr>
+          <th>Id</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Submission Start Date</th>
+          <th>Submission End Date</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Courses</th>
+          </tr>
+        </thead>
+        <tbody id="">
+            <tr>
+                <td>1 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>12/2/2021</td>
+                    <td>HTML-342</td>
+                    <td><a href="mailto:someone@example.com" alt="someone@example.com"><i class="fa-solid fa-at tableIcons"></i></a></td>
+                    <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+                    <td>PASXALIDIS</td>
+                    
+            </tr>
+            <tr>
+                <td>2 </td>
+                    <td>JAVASCRIPT</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td><a href="mailto:someone@example.com" alt="someone@example.com"><i class="fa-solid fa-at tableIcons"></i></a></td>
+                    <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+                    <td>PREZERAKOS</td>
+                    
+            </tr>
+            <tr>
+                <td>3 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td><a href="mailto:someone@example.com" alt="someone@example.com"><i class="fa-solid fa-at tableIcons"></i></a></td>
+                    <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+                    <td> SIFAKIS</td>
+            </tr>
+            <tr>
+                <td>4 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td><a href="mailto:someone@example.com" alt="someone@example.com"><i class="fa-solid fa-at tableIcons"></i></a></td>
+                    <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+                    <td>PASXALIDIS </td>
+            </tr>
+            <tr>
+                <td>5 </td>
+                    <td>c#</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>10/2/2022</td>
+                    <td><a href="mailto:someone@example.com" alt="someone@example.com"><i class="fa-solid fa-at tableIcons"></i></a></td>
+                    <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+                    <td>PASXALIDIS, PREZERAKOS, SIFAKIS</td>
+            </tr>
+            <tr>
+                <td>6 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td><a href="mailto:someone@example.com" alt="someone@example.com"><i class="fa-solid fa-at"></i></a></td>
+                    <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+                    <td>PASXALIDIS, PREZERAKOS, SIFAKIS</td>
+            </tr>
+            <tr>
+                <td>7 </td>
+                    <td>CSS</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td><a href="mailto:someone@example.com" alt="someone@example.com"><i class="fa-solid fa-at tableIcons"></i></a></td>
+                    <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+                    <td>PAPADOPOULOS, SIFAKIS</td>
+            </tr>
+            <tr>
+                <td>8 </td>
+                    <td>REACT</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>HTML-342</td>
+                    <td>12/2/2022</td>
+                    <td><a href="mailto:someone@example.com" alt="someone@example.com"><i class="fa-solid fa-at tableIcons"></i></a></td>
+                    <td><a href="tel:+306982100410"><i class="fa-solid fa-mobile-screen tableIcons"></i></a></td>
+                    <td>PASXALIDIS, PAPADOPOULOS, SIFAKIS</td>
+            </tr>
+            </tbody>
+          <tfoot>
+              <tr><td colspan="9">End of records</td></tr>
+            </tfoot>
+      </table>
+    </section>
+    <section id="Assignments">
+      <h2><i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Assignments</h2>
+      <hr/>
+      <p class="topnav"><span><a href="/Dimitrios_Zafeiris_first_assignment_/html/AddAssignment.html"><i class="fa-solid fa-plus"></i>Add new</a></span></p>
+      <table border="5" id="tableAssignments">
+        <thead>
+        <tr>
+          <th>a/a </th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Submission Start Date</th>
+          <th>Submission End Date</th>
+          <th>Number of Students</th>
+          <th>Trainer</th>
+          <th>Files</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>12/2/2021</td>
+                    <td>20/2/2021</td>
+                    <td>20</td>
+                    <td>PASXALIDIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>2 </td>
+                    <td>JAVASCRIPT</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>12/2/2022</td>
+                    <td>12/2/2022</td>
+                    <td>20</td>
+                    <td>PREZERAKOS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>3 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>12/2/2022</td>
+                    <td>12/2/2022</td>
+                    <td>20</td>
+                    <td> SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>4 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>12/2/2022</td>
+                    <td>22/3/2022</td>
+                    <td>20</td>
+                    <td>PASXALIDIS </td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>5 </td>
+                    <td>c#</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>10/2/2022</td>
+                    <td>12/3/2022</td>
+                    <td>20</td>
+                    <td>PASXALIDIS, PREZERAKOS, SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>6 </td>
+                    <td>Html1</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>12/2/2022</td>
+                    <td>22/3/2022</td>
+                    <td>20</td>
+                    <td>PASXALIDIS, PREZERAKOS, SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>7 </td>
+                    <td>CSS</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>12/2/2022</td>
+                    <td>10/8/2022</td>
+                    <td>20</td>
+                    <td>PAPADOPOULOS, SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            <tr>
+                <td>8 </td>
+                    <td>REACT</td>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>12/2/2022</td>
+                    <td>2/5/2022</td>
+                    <td>20</td>
+                    <td>PASXALIDIS, PAPADOPOULOS, SIFAKIS</td>
+                    <td><a href="#" download><i class="fa-solid fa-file-pdf"></i></a></td>
+            </tr>
+            </tbody>
+          <tfoot>
+            <tr><td colspan="9">End of records</td></tr>
+            </tfoot>
+      </table>
+    </section>
+  </main>
+  <footer id="footer">
+    <p>Copyright &copy; 2022&nbsp;<a href="https://github.com/zafeirisdimi" alt="Github">
+      <i class="fa-brands fa-github fa-1x socialicons"></i></a>&nbsp;
+      <a href="https://www.linkedin.com/in/dimizafe/" alt="Linkedin">
+      <i class="fa-brands fa-linkedin fa-1x socialicons"></i></a>&nbsp;
+      <a href="https://www.facebook.com/dimizafe/" alt="Facebook">
+        <i class="fa-brands fa-facebook fa-1x socialicons"></i></a></p>
+  </footer>
+</body>
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 500px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+</html>

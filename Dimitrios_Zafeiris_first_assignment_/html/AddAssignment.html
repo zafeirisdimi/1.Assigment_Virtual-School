@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add/Edit Assignment</title>
+  <link rel="stylesheet" href="/Dimitrios_Zafeiris_first_assignment_/style/style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <h1>Coding Bootcamp 2022</h1>
+    <nav class="topnav">
+      <a class="active" href="/Dimitrios_Zafeiris_first_assignment_/index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i>Back to home</a>
+    </nav>
+  <hr/>
+</header>
+<main>
+<section>
+    <h2><i class="fa-solid fa-angle-right"> </i>Add/Edit Assignment</h2>
+    <hr/>
+    <form id="formAddAss" class="customForm" autocomplete="off">
+      <div class="input-icon-wrap">
+        <label for="assignDescription">Short description*:</label>
+        <input type="textarea"  class="classInput input-with-icon" id="assignDescription" name="assignDescription" placeholder=" -write a small description here" minlength="30" maxlength="80" autofocus spellcheck="true" required>
+      </div>
+      <div class="input-icon-wrap">
+        <label for="assignTitle">Title*:</label>
+      <input type="text"  class="classInput input-with-icon" id="assignTitle" name="assignTitle" placeholder=" -write the title of course-" minlength="5" maxlength="25" required spellcheck="true">
+      </div>
+    <div class="input-icon-wrap">
+      <label for="Field_Assign">Field*:</label>
+          <select name="assignCourse" id="Field_Assign" width="90%" size="4" required value="" class="custom-select-area">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JAVASCRIPT">JAVASCRIPT</option>
+            <option value="C#">C#</option>
+            <option value="JAVA">JAVA</option>
+            <option value="ANGULAR">ANGULAR</option>
+            <option value="REACT">REACT</option>
+            <option value="SQL">SQL</option>
+            <option value="MySQL">MySQL</option>
+          </select>
+    </div>
+        <div class="input-icon-wrap">
+          <label for="assignStartTime">Start time*:</label>
+          <input type="datetime-local"  class="classInput input-with-icon" id="assignStartTime" name="assignStartTime" required>
+        </div>
+    <div class="input-icon-wrap">
+      <label for="assignEndTime">End time*:</label>
+      <input type="datetime-local"  class="classInput input-with-icon" id="assignEndTime" name="assignEndTime" required>
+    </div>
+    <div class="input-icon-wrap">
+      <label for="assignFile">File pdf:</label>
+      <input type="file"  class="classInput" id="assignFile" name="assignFile" accept="pdf" disabled >
+    </div>
+    <small class="classInput input-with-icon messageError" id="mErrorAss"></small>
+      <small class="classInput input-with-icon messageSuccess" id="mSuccessAss"></small>
+      <small class="classInput input-with-icon messageDelete" id="mDelAss"></small>
+    <div class="input-icon-wrap">
+      <button  class="BtnSubmit" type="submit" value="Add" name="Add" id="submitFormAss" >Add</button>
+      <button  class="BtnUpdate" type="submit" value="update" name="update" id="updateFormAss"  hidden>Update</button>
+      <button  class="BtnClear" type="reset" value="reset" name="Clear" id="resetFormAss">Clear</button></div>
+   </form>
+   <table id="tableAssignments" border="5" hidden>
+    <thead>
+      <tr>
+        <th>Description</th>
+        <th>Title</th>
+        <th>Field</th> 
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>File</th>
+        <th>ACTION</th>
+        </tr>
+      </thead>
+      <tbody id="assignments">
+      </tbody>
+      <tfoot>
+        <tr><td colspan="7">End of records</td></tr>
+        </tfoot>
+   </table>
+</section>
+</main>
+  <footer>
+    <p>Copyright &copy; 2022&nbsp;<a href="https://github.com/zafeirisdimi" alt="Github">
+      <i class="fa-brands fa-github fa-1x socialicons"></i></a>&nbsp;
+      <a href="https://www.linkedin.com/in/dimizafe/" alt="Linkedin">
+      <i class="fa-brands fa-linkedin fa-1x socialicons"></i></a>&nbsp;
+      <a href="https://www.facebook.com/dimizafe/" alt="Facebook">
+        <i class="fa-brands fa-facebook fa-1x socialicons"></i>
+      </a>
+      </p>
+  </footer>
+</body>
+<script src="/Dimitrios_Zafeiris_first_assignment_/snippetjs/assignments.js" type="text/javascript"></script>
+</html>

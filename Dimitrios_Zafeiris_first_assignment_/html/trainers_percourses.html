@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trainers per Course</title>
+  <link rel="stylesheet" href="/Dimitrios_Zafeiris_first_assignment_/style/style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <h1>Coding Bootcamp 2022</h1>
+    <nav class="topnav">
+      <a class="active" href="/Dimitrios_Zafeiris_first_assignment_/index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i>Back to home</a>
+    </nav>
+  <hr/>
+</header>
+<main>
+<section>
+    <h2><i class="fa-solid fa-angle-right"> </i>Trainers per Course</h2>
+    <hr/>
+    <form id="formAddStudentsperCourse" class="customForm" autocomplete="off">
+        <div>
+            <label for="SelectedCourse" class="formbuilder-select-label">Select your Course<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Select your Course">?</span></label>
+                <select class="form-control" name="SelectedCourse[]" multiple="true" id="SelectedCourse" required="required" aria-required="true" multiple="true" size="5" required>
+                    <option disabled="null" selected="null">Select your Course for your Coding Bootcamp</option>
+                    <option value="html" id="SelectedCourse-0">HTML</option>
+                    <option value="css" id="SelectedCourse-1">CSS</option>
+                    <option value="js" id="SelectedCourse-2">Javascript</option>
+                    <option value="cs" id="SelectedCourse-3">C#</option>
+                    <option value="sql" id="SelectedCourse-4">SQL</option>
+                    <option value="servers" id="SelectedCourse-5">SERVERS</option>
+                    <option value="git" id="SelectedCourse-6">GIT</option>
+                </select>
+            </div>
+        </div>
+        <div class="rendered-form">
+          <div class="customForm">
+              <label for="SelectedStduents" class="formbuilder-select-label">Select your Students<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Select your Course">?</span></label>
+              <select class="form-control" name="SelectedStduents[]" multiple="true" id="SelectedStduents" required="required" aria-required="true" multiple="true" size="5" required>
+                  <option disabled="null" selected="null">Select your Trainer for the specific course</option>
+                  <option value="Dimitris Pappadopoulos" id="SelectedStduents-0">Dimitris Pappadopoulos</option>
+                  <option value="Dimitris Pappadopoulos" id="SelectedStduents-1">Dimitris Pappadopoulos</option>
+                  <option value="dummy student" id="SelectedStduents-2">dummy student</option>
+                  <option value="Dimitris Pappadopoulos" id="SelectedStduents-3">Dimitris Pappadopoulos</option>
+                  <option value="dummy student" id="SelectedStduents-4">dummy student</option>
+                  <option value="Dimitris Pappadopoulos" id="SelectedStduents-5">Dimitris Pappadopoulos</option>
+                  <option value="dummy student" id="SelectedStduents-6">dummy student</option>
+                  <option value="Pappadopoulos" id="SelectedStduents-7">Dimitris Pappadopoulos</option>
+              </select>
+          </div>
+      </div>
+     
+        <button  class="BtnSubmit" type="submit" value="Add" name="Add" id="" >Add</button>
+        <button  class="BtnUpdate" type="submit" value="update" name="update" id=""  hidden>Update</button>
+        <button  class="BtnClear" type="reset" value="reset" name="Clear" id="">Clear</button>
+    </div>
+   </form>
+</section>
+</main>
+  <footer>
+    <p>Copyright &copy; 2022&nbsp;<a href="https://github.com/zafeirisdimi" alt="Github">
+      <i class="fa-brands fa-github fa-1x socialicons"></i></a>&nbsp;
+      <a href="https://www.linkedin.com/in/dimizafe/" alt="Linkedin">
+      <i class="fa-brands fa-linkedin fa-1x socialicons"></i></a>&nbsp;
+      <a href="https://www.facebook.com/dimizafe/" alt="Facebook">
+        <i class="fa-brands fa-facebook fa-1x socialicons"></i>
+      </a>
+      </p>
+  </footer>
+</body>
+<script src="" type="text/javascript"></script>
+</html>

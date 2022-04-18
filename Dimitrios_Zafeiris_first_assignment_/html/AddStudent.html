@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add/Edit Student</title>
+  <link rel="stylesheet" href="/Dimitrios_Zafeiris_first_assignment_/style/style.css" type="text/css">
+  <link rel="icon" type="image/x-icon" href="/Dimitrios_Zafeiris_first_assignment_/img/children.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="snippetjs/viewPassword.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+</head>
+<body>
+<header>
+  <h1>Coding Bootcamp 2022</h1>
+  <nav class="topnav">
+    <a class="active" href="/Dimitrios_Zafeiris_first_assignment_/index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i>Back to home</a>
+  </nav>
+  <hr/>
+</header>
+<main>
+<section>
+    <h2><i class="fa-solid fa-angle-right"> </i>Add/Edit Student</h2>
+    <hr/>
+    <form id="formAddStud"  class="customForm" autocomplete="off" action="" method="">
+      <div class="input-icon-wrap">
+        <label for="StudFname">First name*:</label>
+        <input class="classInput input-with-icon" type="text" id="StudFname" name="StudFNAME" placeholder="--write your first name right here-" minlength="5" maxlength="15" required autofocus>
+      </div>
+      <div class="input-icon-wrap">
+        <label for="StudLname">Last name*:</label>
+        <input class="classInput input-with-icon" type="text" id="StudLname" name="StudLNAME" placeholder="--write your last name right here-" minlength="5" maxlength="15"  required>
+      </div>
+      <div class="input-icon-wrap">
+        <label for="StudEmail">Email address*:</label>
+        <input class="classInput input-with-icon" type="email" id="StudEmail" name="StudEmail" placeholder="abc@gmail.com" required>
+      </div>
+      <div class="input-icon-wrap">
+        <label for="StudPass">Password*:</label>
+        <input class="classInput input-with-icon" type="password" id="StudPass" name="StudPass" placeholder="********"  minlength="5" maxlength="30"  required>
+      </div>
+      <div class="input-icon-wrap">
+        <label for="StudStart">Start date:</label>
+        <input class="classInput input-with-icon" type="date" id="StudStart" name="StudStart" value="" min="2022-01-01" max="2022-12-31" required>
+      </div>
+      <div class="input-icon-wrap">
+        <label for="StudEnd">End date:</label>
+        <input class="classInput input-with-icon" type="date" id="StudEnd" name="StudEnd" value="" min="2022-01-01" max="2022-12-31" required>
+      </div>
+      <div class="input-icon-wrap">
+     <label for="StudPhone">Phone nubmer:</label>
+     <input class="classInput input-with-icon"type="tel" id="StudPhone" name="StudPhone" maxlength="10"  placeholder="---Format: 123-456-7890---">
+    </div>
+     
+      <small class="classInput input-with-icon messageError" id="mErrorStud"></small>
+      <small class="classInput input-with-icon messageSuccess" id="mSuccessStud"></small>
+      <small class="classInput input-with-icon messageDelete" id="mDelStud"></small>
+    <div class="input-icon-wrap">
+      <button  class="BtnSubmit" type="submit" value="Add" name="Add" id="submitFormStud" >Add</button>
+      <button  class="BtnSubmit" type="submit" value="update" name="update" id="updateFormStud"  hidden>Update</button>
+      <button  class="BtnClear" type="reset" value="Clear" name="Clear" id="resetFormStud">Clear</button></div>
+   </form>
+   <table id="tableStudents" border="5" hidden>
+    <thead >
+      <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Email address</th> 
+        <th>Password</th>
+        <th>Start date</th>
+        <th>End date</th>
+        <th>Phone nubmer</th>
+        <th>ACTION</th>
+        </tr>
+      </thead>
+      <tbody id="students">
+      </tbody>
+      <tfoot>
+        <tr><td colspan="10">End of records</td></tr>
+        </tfoot>
+   </table>
+</section>
+</main>
+<footer>
+  <p>Copyright &copy; 2022&nbsp;<a href="https://github.com/zafeirisdimi" alt="Github">
+    <i class="fa-brands fa-github fa-1x socialicons"></i></a>&nbsp;
+    <a href="https://www.linkedin.com/in/dimizafe/" alt="Linkedin">
+    <i class="fa-brands fa-linkedin fa-1x socialicons"></i></a>&nbsp;
+    <a href="https://www.facebook.com/dimizafe/" alt="Facebook">
+      <i class="fa-brands fa-facebook fa-1x socialicons"></i></a></p>
+</footer>
+</body>
+<script src="/Dimitrios_Zafeiris_first_assignment_/snippetjs/students.js" type="text/javascript"></script>
+</html>

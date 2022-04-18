@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignments per Course</title>
+  <link rel="stylesheet" href="/Dimitrios_Zafeiris_first_assignment_/style/style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <h1>Coding Bootcamp 2022</h1>
+    <nav class="topnav">
+      <a class="active" href="/Dimitrios_Zafeiris_first_assignment_/index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i>Back to home</a>
+    </nav>
+  <hr/>
+</header>
+<main>
+<section>
+    <h2><i class="fa-solid fa-angle-right"> </i>Assignments per Course</h2>
+    <hr/>
+    <form id="formAddAssignmentsperCourse" class="customForm" autocomplete="off">
+        
+            <div class="input-icon-wrap">
+                <label for="AssignmentsperCourse">Select your Course<span>*</span><span class="tooltip-element" tooltip="Here are your list of Courses">?</span></label>
+                <select class="custom-select-area" name="AssignmentsperCourse" id="AssignmentsperCourse" required aria-required="true">
+                    <option disabled="null" selected="null">select your Course</option>
+                    <option value="html" id="AssignmentsperCourse-0">HTML</option>
+                    <option value="css" id="AssignmentsperCourse-1">CSS</option>
+                    <option value="js" id="AssignmentsperCourse-2">JAVASCRIPT</option>
+                </select>
+            </div>
+            <div class="input-icon-wrap">
+                <label for="FormAssignemnts">Select your Assignments<span >*</span><span class="tooltip-element" tooltip="Here are the list of all assignments">?</span></label>
+                <select class=" custom-select-area" name="FormAssignemnts" id="FormAssignemnts" required aria-required="true">
+                    <option disabled="null" selected="null">Select your Assignments</option>
+                    <option value="html-table" id="FormAssignemnts-0">HTML table</option>
+                    <option value="js-variables" id="FormAssignemnts-1">JS variables</option>
+                    <option value="c#-methods" id="FormAssignemnts-2">C# Methods</option>
+                </select>
+            </div>
+            <div class="input-icon-wrap">
+                <button  style="float: right" class="BtnSubmit" type="submit" value="Add" name="Add" id="" >Add</button>
+                <button  style="float: right" class="BtnUpdate" type="submit" value="update" name="update" id=""  hidden>Update</button>
+                <button  style="float: right" class="BtnClear" type="reset" value="reset" name="Clear" id="">Clear</button>
+              </div>
+            
+   </form>
+</section>
+</main>
+  <footer>
+    <p>Copyright &copy; 2022&nbsp;<a href="https://github.com/zafeirisdimi" alt="Github">
+      <i class="fa-brands fa-github fa-1x socialicons"></i></a>&nbsp;
+      <a href="https://www.linkedin.com/in/dimizafe/" alt="Linkedin">
+      <i class="fa-brands fa-linkedin fa-1x socialicons"></i></a>&nbsp;
+      <a href="https://www.facebook.com/dimizafe/" alt="Facebook">
+        <i class="fa-brands fa-facebook fa-1x socialicons"></i>
+      </a>
+      </p>
+  </footer>
+</body>
+<script src="" type="text/javascript"></script>
+</html>
