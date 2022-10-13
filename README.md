@@ -1,5 +1,5 @@
 
-# Coding Bootcamp #
+# Virtual School #
 <img src="https://github.com/zafeirisdimi/coding_bootcamp/blob/9d5285de6941ac84c2116dcf7b5710b173883734/Dimitrios_Zafeiris_first_assignment_/img/assignment1preview.jpg" width="100%" align="center"/>
 
 
